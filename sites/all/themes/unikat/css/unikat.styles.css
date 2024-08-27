@@ -1091,12 +1091,6 @@ h3 {
   text-align: left;
 }
 
-@media (min-width: 768px) {
-  .menu .active-trail a {
-    text-decoration: underline !important;
-  }
-}
-
 /* line 131, ../sass/unikat.styles.scss */
 #block-locale-language ul {
   text-align: right;
@@ -1604,6 +1598,10 @@ border: 1px solid $text-gold;*/
 @media (max-width: 48em) {
   .leaf:not(.show-mobile) + .show-mobile {
     border-bottom: 5px solid #333 !important;
+  }
+
+  #block-block-4 h3 {
+    text-align: center !important;
   }
 }
 
