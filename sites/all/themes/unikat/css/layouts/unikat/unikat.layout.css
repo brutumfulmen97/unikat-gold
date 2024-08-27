@@ -18,22 +18,24 @@ l-header,
 .l-region--footer-fourth {
   max-width: 1112px;
   margin-left: auto;
-  margin-right: auto; }
-  /* line 12, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
-  l-header:after,
-  .l-main:after,
-  .l-top:after,
-  .l-prefix:after,
-  .l-footer:after,
-  .l-footer-bottom:after,
-  .l-top:after,
-  .l-prefix:after,
-  .l-region--footer:after,
-  .l-region--footer-third:after,
-  .l-region--footer-fourth:after {
-    content: " ";
-    display: block;
-    clear: both; }
+  margin-right: auto;
+}
+/* line 12, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+l-header:after,
+.l-main:after,
+.l-top:after,
+.l-prefix:after,
+.l-footer:after,
+.l-footer-bottom:after,
+.l-top:after,
+.l-prefix:after,
+.l-region--footer:after,
+.l-region--footer-third:after,
+.l-region--footer-fourth:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
 
 /* line 47, ../../../sass/layouts/unikat/unikat.layout.scss */
 .l-top,
@@ -43,30 +45,45 @@ l-header,
 .l-top,
 .l-prefix {
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+}
 
 /* line 57, ../../../sass/layouts/unikat/unikat.layout.scss */
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,
 .l-region--sidebar-second {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 /* line 64, ../../../sass/layouts/unikat/unikat.layout.scss */
 .mobile-menu {
   width: 56.83453%;
   float: right;
-  margin-right: 0; }
+  margin-right: 0;
+}
 
 /* line 68, ../../../sass/layouts/unikat/unikat.layout.scss */
 .l-branding {
   width: 39.56835%;
   float: left;
-  margin-right: 3.59712%; }
+  margin-right: 3.59712%;
+}
+
+@media (max-width: 768px) {
+  .l-branding,
+  .mobile-menu {
+    margin-top: 16px;
+  }
+}
 
 /* line 72, ../../../sass/layouts/unikat/unikat.layout.scss */
-.l-region--header, .footer-bottom, .l-region--footer-bottom, .l-region--footer {
-  clear: both; }
+.l-region--header,
+.footer-bottom,
+.l-region--footer-bottom,
+.l-region--footer {
+  clear: both;
+}
 
 @media (min-width: 44em) {
   /* line 79, ../../../sass/layouts/unikat/unikat.layout.scss */
@@ -80,31 +97,35 @@ l-header,
   .l-prefix {
     max-width: 1112px;
     margin-left: auto;
-    margin-right: auto; }
-    /* line 12, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
-    .l-header:after,
-    .l-main:after,
-    .l-top:after,
-    .l-prefix:after,
-    .l-footer:after,
-    .l-footer-bottom:after,
-    .l-top:after,
-    .l-prefix:after {
-      content: " ";
-      display: block;
-      clear: both; }
+    margin-right: auto;
+  }
+  /* line 12, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .l-header:after,
+  .l-main:after,
+  .l-top:after,
+  .l-prefix:after,
+  .l-footer:after,
+  .l-footer-bottom:after,
+  .l-top:after,
+  .l-prefix:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
 
   /* line 90, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--navigation {
     width: 82.73381%;
     float: right;
-    margin-right: 0; }
+    margin-right: 0;
+  }
 
   /* line 93, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-branding {
     width: 13.66906%;
     float: left;
-    margin-right: 3.59712%; }
+    margin-right: 3.59712%;
+  }
 
   /* line 96, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--social,
@@ -112,80 +133,93 @@ l-header,
     width: 100%;
     float: left;
     margin-left: 0;
-    margin-right: 0; }
+    margin-right: 0;
+  }
 
   /* line 101, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--top-first {
     width: 48.20144%;
     float: left;
-    margin-right: 3.59712%; }
+    margin-right: 3.59712%;
+  }
 
   /* line 104, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--top-second {
     width: 48.20144%;
     float: right;
-    margin-right: 0; }
+    margin-right: 0;
+  }
 
   /* line 107, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--prefix-first {
     width: 39.56835%;
     float: left;
-    margin-right: 3.59712%; }
+    margin-right: 3.59712%;
+  }
 
   /* line 110, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--prefix-second {
     width: 26.61871%;
     float: left;
-    margin-right: 3.59712%; }
+    margin-right: 3.59712%;
+  }
 
   /* line 113, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--prefix-third {
     width: 26.61871%;
     float: right;
-    margin-right: 0; }
+    margin-right: 0;
+  }
 
   /* line 116, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--footer {
-    clear: both; }
+    clear: both;
+  }
 
   /* line 119, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--footer-first {
     width: 13.66906%;
     float: left;
     margin-right: 3.59712%;
-    margin-left: 17.26619%; }
+    margin-left: 17.26619%;
+  }
 
   /* line 123, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--footer-second {
     width: 17.98561%;
     float: left;
-    margin-right: 3.59712%; }
+    margin-right: 3.59712%;
+  }
 
   /* line 126, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--footer-third {
     width: 26.61871%;
     float: left;
-    margin-right: 3.59712%; }
+    margin-right: 3.59712%;
+  }
 
   /* line 129, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--footer-fourth {
     width: 30.93525%;
     float: right;
-    margin-right: 0; }
+    margin-right: 0;
+  }
 
   /* line 132, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--footer {
     width: 65.46763%;
     float: left;
     margin-right: 3.59712%;
-    clear: none; }
+    clear: none;
+  }
 
   /* line 136, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-region--footer-bottom {
     width: 30.93525%;
     float: right;
     margin-right: 0;
-    clear: none; }
+    clear: none;
+  }
 
   /*  .l-region--header {
       @include span(16); // Span the last (omega) 8 columns of 12.
@@ -194,49 +228,59 @@ l-header,
   .has-sidebar-first .l-content {
     width: 74.10072%;
     float: right;
-    margin-right: 0; }
+    margin-right: 0;
+  }
   /* line 148, ../../../sass/layouts/unikat/unikat.layout.scss */
   .has-sidebar-first .l-region--sidebar-first {
     width: 22.30216%;
     float: left;
-    margin-right: 3.59712%; }
+    margin-right: 3.59712%;
+  }
 
   /* line 153, ../../../sass/layouts/unikat/unikat.layout.scss */
   .has-sidebar-second .l-content {
     width: 74.10072%;
     float: left;
-    margin-right: 3.59712%; }
+    margin-right: 3.59712%;
+  }
   /* line 156, ../../../sass/layouts/unikat/unikat.layout.scss */
   .has-sidebar-second .l-region--sidebar-second {
     width: 22.30216%;
     float: right;
     margin-right: 0;
-    clear: none; }
+    clear: none;
+  }
 
   /* line 162, ../../../sass/layouts/unikat/unikat.layout.scss */
   .has-two-sidebars .l-content {
     width: 35.2518%;
     float: left;
     margin-right: 3.59712%;
-    margin-left: 25.89928%; }
+    margin-left: 25.89928%;
+  }
   /* line 166, ../../../sass/layouts/unikat/unikat.layout.scss */
   .has-two-sidebars .l-region--sidebar-first {
     width: 22.30216%;
     float: left;
-    margin-right: 3.59712%; }
+    margin-right: 3.59712%;
+  }
   /* line 169, ../../../sass/layouts/unikat/unikat.layout.scss */
   .has-two-sidebars .l-region--sidebar-second {
     width: 35.2518%;
     float: left;
-    margin-right: 3.59712%; }
+    margin-right: 3.59712%;
+  }
   /* line 172, ../../../sass/layouts/unikat/unikat.layout.scss */
   .has-two-sidebars .l-region--sidebar-first {
-    margin-left: -64.7482%; }
+    margin-left: -64.7482%;
+  }
   /* line 175, ../../../sass/layouts/unikat/unikat.layout.scss */
   .has-two-sidebars .l-region--sidebar-second {
     float: right;
     margin-right: 0;
-    clear: none; } }
+    clear: none;
+  }
+}
 @media (min-width: 70em) {
   /* line 184, ../../../sass/layouts/unikat/unikat.layout.scss */
   .l-header,
@@ -251,18 +295,21 @@ l-header,
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
-    padding-right: 0; }
-    /* line 12, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
-    .l-header:after,
-    .l-main:after,
-    .l-top:after,
-    .l-prefix:after,
-    .l-footer:after,
-    .l-footer-bottom:after,
-    .l-top:after,
-    .l-prefix:after {
-      content: " ";
-      display: block;
-      clear: both; } }
+    padding-right: 0;
+  }
+  /* line 12, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .l-header:after,
+  .l-main:after,
+  .l-top:after,
+  .l-prefix:after,
+  .l-footer:after,
+  .l-footer-bottom:after,
+  .l-top:after,
+  .l-prefix:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
 
 /*# sourceMappingURL=unikat.layout.css.map */
