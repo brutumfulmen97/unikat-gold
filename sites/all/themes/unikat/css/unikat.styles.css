@@ -1597,7 +1597,7 @@ border: 1px solid $text-gold;*/
 }
 @media (max-width: 48em) {
   .leaf:not(.show-mobile) + .show-mobile {
-    border-bottom: 5px solid #333 !important;
+    border-top: 5px solid #333 !important;
   }
 
   #block-block-4 h3 {
