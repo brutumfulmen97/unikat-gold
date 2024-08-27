@@ -1,703 +1,1905 @@
 <!DOCTYPE html>
-  <!--[if IEMobile 7]><html class="no-js ie iem7" lang="de" dir="ltr"><![endif]-->
-  <!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="de" dir="ltr"><![endif]-->
-  <!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="de" dir="ltr"><![endif]-->
-  <!--[if IE 8]><html class="no-js ie lt-ie9" lang="de" dir="ltr"><![endif]-->
-  <!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="de" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><![endif]-->
-  <!--[if !IE]><!--><html class="no-js" lang="de" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
-<head>
-  <meta charset="utf-8" />
-<link rel="shortcut icon" href="http://www.unikat-gold.com/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
-<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="MobileOptimized" content="width" />
-<meta http-equiv="cleartype" content="on" />
-<link rel="apple-touch-icon-precomposed" href="http://www.unikat-gold.com/sites/all/themes/unikat/apple-touch-icon-precomposed-114x114.png" sizes="114x114" />
-<link rel="apple-touch-icon-precomposed" href="http://www.unikat-gold.com/sites/all/themes/unikat/apple-touch-icon-precomposed-72x72.png" sizes="72x72" />
-<link rel="apple-touch-icon-precomposed" href="http://www.unikat-gold.com/sites/all/themes/unikat/apple-touch-icon-precomposed-144x144.png" sizes="144x144" />
-<link rel="apple-touch-icon-precomposed" href="http://www.unikat-gold.com/sites/all/themes/unikat/apple-touch-icon-precomposed.png" />
-<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
-<meta name="viewport" content="width=device-width" />
-<link rel="canonical" href="http://www.unikat-gold.com/de/edelsteine" />
-<link rel="shortlink" href="http://www.unikat-gold.com/de/kamenje" />
+<!--[if IEMobile 7]><html class="no-js ie iem7" lang="de" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="de" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="de" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="no-js ie lt-ie9" lang="de" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="de" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if !IE]><!--><html
+  class="no-js"
+  lang="de"
+  dir="ltr"
+  prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"
+><!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="shortcut icon"
+      href="/sites/default/files/favicon.ico"
+      type="image/vnd.microsoft.icon"
+    />
+    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="width" />
+    <meta http-equiv="cleartype" content="on" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="/sites/all/themes/unikat/apple-touch-icon-precomposed-114x114.png"
+      sizes="114x114"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="/sites/all/themes/unikat/apple-touch-icon-precomposed-72x72.png"
+      sizes="72x72"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="/sites/all/themes/unikat/apple-touch-icon-precomposed-144x144.png"
+      sizes="144x144"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="/sites/all/themes/unikat/apple-touch-icon-precomposed.png"
+    />
+    <meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="canonical" href="/de/edelsteine" />
+    <link rel="shortlink" href="/de/kamenje" />
 
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','//connect.facebook.net/en_US/fbevents.js');
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "//connect.facebook.net/en_US/fbevents.js"
+      );
 
-fbq('init', '607387159623434');
-fbq('track', 'PageView');
-</script>
-<noscript><img height='1' width='1' style='display:none' src='https://www.facebook.com/tr?id=607387159623434&ev=PageView&noscript=1' /></noscript>
-<!-- End Facebook Pixel Code -->
-  <title>Edelsteine | Goldschmiede Unikat - Bači Arpad</title>
-  <style>
-@import url("http://www.unikat-gold.com/sites/all/themes/omega/omega/css/modules/system/system.base.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/themes/omega/omega/css/modules/system/system.theme.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/modules/date/date_api/date.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?rv9frn");
-@import url("http://www.unikat-gold.com/modules/node/node.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/themes/omega/omega/css/modules/field/field.theme.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/modules/views/css/views.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/themes/omega/omega/css/modules/user/user.base.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/themes/omega/omega/css/modules/user/user.theme.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/modules/ckeditor/css/ckeditor.css?rv9frn");
-</style>
-<style>
-@import url("http://www.unikat-gold.com/sites/all/modules/views_slideshow/views_slideshow.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_style.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/modules/ctools/css/ctools.css?rv9frn");
-</style>
-<style>#views-slideshow-bxslider-1.views-slideshow-bxslider .bx-wrapper .bx-controls-direction a{z-index:499;}
-#views-slideshow-bxslider-1.views-slideshow-bxslider li img{margin-right:auto;}
-#views-slideshow-bxslider-1.views-slideshow-bxslider .bx-wrapper .bx-caption{background:rgba(80,80,80,0.75)}
-</style>
-<style>
-@import url("http://www.unikat-gold.com/sites/all/libraries/bxslider/jquery.bxslider.css?rv9frn");
-</style>
-<style>
-@import url("http://www.unikat-gold.com/sites/all/themes/unikat/css/unikat.normalize.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/themes/unikat/css/unikat.hacks.css?rv9frn");
-@import url("http://www.unikat-gold.com/sites/all/themes/unikat/css/unikat.styles.css?rv9frn");
-</style>
+      fbq("init", "607387159623434");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=607387159623434&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <title>Edelsteine | Goldschmiede Unikat - Bači Arpad</title>
+    <style>
+      @import url("/sites/all/themes/omega/omega/css/modules/system/system.base.css");
+      @import url("/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css");
+      @import url("/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css");
+      @import url("/sites/all/themes/omega/omega/css/modules/system/system.theme.css");
+      @import url("/sites/all/modules/date/date_api/date.css");
+      @import url("/sites/all/modules/date/date_popup/themes/datepicker.1.7.css");
+      @import url("/modules/node/node.css");
+      @import url("/sites/all/themes/omega/omega/css/modules/field/field.theme.css");
+      @import url("/sites/all/modules/views/css/views.css");
+      @import url("/sites/all/themes/omega/omega/css/modules/user/user.base.css");
+      @import url("/sites/all/themes/omega/omega/css/modules/user/user.theme.css");
+      @import url("/sites/all/modules/ckeditor/css/ckeditor.css");
+    </style>
+    <style>
+      @import url("/sites/all/modules/views_slideshow/views_slideshow.css");
+      @import url("/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_style.css");
+      @import url("/sites/all/modules/ctools/css/ctools.css");
+    </style>
+    <style>
+      #views-slideshow-bxslider-1.views-slideshow-bxslider
+        .bx-wrapper
+        .bx-controls-direction
+        a {
+        z-index: 499;
+      }
+      #views-slideshow-bxslider-1.views-slideshow-bxslider li img {
+        margin-right: auto;
+      }
+      #views-slideshow-bxslider-1.views-slideshow-bxslider
+        .bx-wrapper
+        .bx-caption {
+        background: rgba(80, 80, 80, 0.75);
+      }
+    </style>
+    <style>
+      @import url("/sites/all/libraries/bxslider/jquery.bxslider.css");
+    </style>
+    <style>
+      @import url("/sites/all/themes/unikat/css/unikat.normalize.css");
+      @import url("/sites/all/themes/unikat/css/unikat.hacks.css");
+      @import url("/sites/all/themes/unikat/css/unikat.styles.css");
+    </style>
 
-<!--[if lte IE 8]>
-<style>
-@import url("http://www.unikat-gold.com/sites/all/themes/unikat/css/unikat.no-query.css?rv9frn");
-</style>
-<![endif]-->
-<style>
-@import url("http://www.unikat-gold.com/sites/all/themes/unikat/css/layouts/unikat/unikat.layout.css?rv9frn");
-</style>
-  <script src="http://www.unikat-gold.com/sites/all/modules/jquery_update/replace/jquery/1.9/jquery.min.js?v=1.9.1"></script>
-<script src="http://www.unikat-gold.com/misc/jquery.once.js?v=1.2"></script>
-<script src="http://www.unikat-gold.com/misc/drupal.js?rv9frn"></script>
-<script src="http://www.unikat-gold.com/sites/all/themes/omega/omega/js/no-js.js?rv9frn"></script>
-<script src="http://www.unikat-gold.com/sites/all/modules/views_slideshow/js/views_slideshow.js?v=1.0"></script>
-<script src="http://www.unikat-gold.com/sites/all/libraries/bxslider/jquery.bxslider.min.js?rv9frn"></script>
-<script src="http://www.unikat-gold.com/sites/all/libraries/colorbox/jquery.colorbox-min.js?rv9frn"></script>
-<script src="http://www.unikat-gold.com/sites/all/modules/colorbox/js/colorbox.js?rv9frn"></script>
-<script src="http://www.unikat-gold.com/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_style.js?rv9frn"></script>
-<script src="http://www.unikat-gold.com/sites/all/modules/bxslider_views_slideshow/bxslider_views_slideshow.js?rv9frn"></script>
-<script src="http://www.unikat-gold.com/sites/all/modules/google_analytics/googleanalytics.js?rv9frn"></script>
-<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-18948907-42", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
-<script src="http://www.unikat-gold.com/sites/all/themes/unikat/js/unikat.behaviors.js?rv9frn"></script>
-<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"de\/","colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"returnFocus":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"300","initialHeight":"250","fixed":true,"scrolling":true,"mobiledetect":false,"mobiledevicewidth":"480px"},"viewsSlideshow":{"slideshow-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","bxsliderViewsSlideshow"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","bxsliderViewsSlideshow"],"pause":["viewsSlideshowControls"],"play":["viewsSlideshowControls"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","bxsliderViewsSlideshow"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowBxslider":{"views_slideshow_bxslider_images_1":{"general":{"mode":"horizontal","speed":500,"slideMargin":0,"startSlide":0,"randomStart":0,"infiniteLoop":1,"hideControlOnEnd":0,"captions":0,"ticker":0,"tickerHover":1,"adaptiveHeight":1,"adaptiveHeightSpeed":500,"video":0,"touchEnabled":1,"preloadImages":"all","disable_standard_css":0,"useCSS":1,"align_image":"left","align_caption":"left","swipeThreshold":50,"oneToOneTouch":1,"preventDefaultSwipeX":1,"preventDefaultSwipeY":0,"color_caption":"80, 80, 80, 0.75"},"controlsfieldset":{"controls":0,"nextText":"","prevText":"","startText":"","stopText":"","autoControls":0,"autoControlsCombine":0},"pagerfieldset":{"pager":1,"pagerType":"full","pagerShortSeparator":" \/ "},"autofieldset":{"pause":6000,"autoStart":1,"auto":1,"autoHover":0,"autoDelay":0,"autoDirection":"next"},"carousel":{"minSlides":1,"maxSlides":1,"moveSlides":0,"slideWidth":0},"callback":{"onSliderLoad":"function(currentIndex){jQuery(\u0027#block-views-slideshow-block\u0027).addClass(\u0027show\u0027);}"},"fixes":{"height_does_not_dyn_change":0}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1}});</script>
-</head>
-<body class="html not-front not-logged-in page-kamenje i18n-de section-kamenje">
-  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    <!--[if lte IE 8]>
+      <style>
+        @import url("/sites/all/themes/unikat/css/unikat.no-query.css");
+      </style>
+    <![endif]-->
+    <style>
+      @import url("/sites/all/themes/unikat/css/layouts/unikat/unikat.layout.css");
+    </style>
+    <script src="/sites/all/modules/jquery_update/replace/jquery/1.9/jquery.min.js"></script>
+    <script src="/misc/jquery.once.js"></script>
+    <script src="/misc/drupal.js"></script>
+    <script src="/sites/all/themes/omega/omega/js/no-js.js"></script>
+    <script src="/sites/all/modules/views_slideshow/js/views_slideshow.js"></script>
+    <script src="/sites/all/libraries/bxslider/jquery.bxslider.min.js"></script>
+    <script src="/sites/all/libraries/colorbox/jquery.colorbox-min.js"></script>
+    <script src="/sites/all/modules/colorbox/js/colorbox.js"></script>
+    <script src="/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_style.js"></script>
+    <script src="/sites/all/modules/bxslider_views_slideshow/bxslider_views_slideshow.js"></script>
+    <script src="/sites/all/modules/google_analytics/googleanalytics.js"></script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-18948907-42", { cookieDomain: "auto" });
+      ga("set", "anonymizeIp", true);
+      ga("send", "pageview");
+    </script>
+    <script src="/sites/all/themes/unikat/js/unikat.behaviors.js"></script>
+    <script>
+      jQuery.extend(Drupal.settings, {
+        basePath: "\/",
+        pathPrefix: "de\/",
+        colorbox: {
+          transition: "elastic",
+          speed: "350",
+          opacity: "0.85",
+          slideshow: false,
+          slideshowAuto: true,
+          slideshowSpeed: "2500",
+          slideshowStart: "start slideshow",
+          slideshowStop: "stop slideshow",
+          current: "{current} of {total}",
+          previous: "\u00ab Prev",
+          next: "Next \u00bb",
+          close: "Close",
+          overlayClose: true,
+          returnFocus: true,
+          maxWidth: "98%",
+          maxHeight: "98%",
+          initialWidth: "300",
+          initialHeight: "250",
+          fixed: true,
+          scrolling: true,
+          mobiledetect: false,
+          mobiledevicewidth: "480px",
+        },
+        viewsSlideshow: {
+          "slideshow-block_1": {
+            methods: {
+              goToSlide: [
+                "viewsSlideshowPager",
+                "viewsSlideshowSlideCounter",
+                "bxsliderViewsSlideshow",
+              ],
+              nextSlide: [
+                "viewsSlideshowPager",
+                "viewsSlideshowSlideCounter",
+                "bxsliderViewsSlideshow",
+              ],
+              pause: ["viewsSlideshowControls"],
+              play: ["viewsSlideshowControls"],
+              previousSlide: [
+                "viewsSlideshowPager",
+                "viewsSlideshowSlideCounter",
+                "bxsliderViewsSlideshow",
+              ],
+              transitionBegin: [
+                "viewsSlideshowPager",
+                "viewsSlideshowSlideCounter",
+              ],
+              transitionEnd: [],
+            },
+            paused: 0,
+          },
+        },
+        viewsSlideshowBxslider: {
+          views_slideshow_bxslider_images_1: {
+            general: {
+              mode: "horizontal",
+              speed: 500,
+              slideMargin: 0,
+              startSlide: 0,
+              randomStart: 0,
+              infiniteLoop: 1,
+              hideControlOnEnd: 0,
+              captions: 0,
+              ticker: 0,
+              tickerHover: 1,
+              adaptiveHeight: 1,
+              adaptiveHeightSpeed: 500,
+              video: 0,
+              touchEnabled: 1,
+              preloadImages: "all",
+              disable_standard_css: 0,
+              useCSS: 1,
+              align_image: "left",
+              align_caption: "left",
+              swipeThreshold: 50,
+              oneToOneTouch: 1,
+              preventDefaultSwipeX: 1,
+              preventDefaultSwipeY: 0,
+              color_caption: "80, 80, 80, 0.75",
+            },
+            controlsfieldset: {
+              controls: 0,
+              nextText: "",
+              prevText: "",
+              startText: "",
+              stopText: "",
+              autoControls: 0,
+              autoControlsCombine: 0,
+            },
+            pagerfieldset: {
+              pager: 1,
+              pagerType: "full",
+              pagerShortSeparator: " \/ ",
+            },
+            autofieldset: {
+              pause: 6000,
+              autoStart: 1,
+              auto: 1,
+              autoHover: 0,
+              autoDelay: 0,
+              autoDirection: "next",
+            },
+            carousel: {
+              minSlides: 1,
+              maxSlides: 1,
+              moveSlides: 0,
+              slideWidth: 0,
+            },
+            callback: {
+              onSliderLoad:
+                "function(currentIndex){jQuery(\u0027#block-views-slideshow-block\u0027).addClass(\u0027show\u0027);}",
+            },
+            fixes: { height_does_not_dyn_change: 0 },
+          },
+        },
+        googleanalytics: {
+          trackOutbound: 1,
+          trackMailto: 1,
+          trackDownload: 1,
+          trackDownloadExtensions:
+            "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip",
+          trackColorbox: 1,
+        },
+      });
+    </script>
+  </head>
+  <body
+    class="html not-front not-logged-in page-kamenje i18n-de section-kamenje"
+  >
+    <a href="#main-content" class="element-invisible element-focusable"
+      >Skip to main content</a
+    >
     <div class="l-page">
-  <header class="l-header" role="banner">
-    <div class="l-branding">
-              <a href="/de" title="Home" rel="home" class="site-logo"><img src="http://www.unikat-gold.com/sites/all/themes/unikat/logo.png" alt="Home" /></a>
-      
-      
+      <header class="l-header" role="banner">
+        <div class="l-branding">
+          <a href="/de" title="Home" rel="home" class="site-logo"
+            ><img src="/sites/all/themes/unikat/logo.png" alt="Home"
+          /></a>
+        </div>
+
+        <div class="l-region l-region--navigation">
+          <div
+            id="block-locale-language"
+            role="complementary"
+            class="block block--locale block--locale-language"
+          >
+            <div class="block__content">
+              <ul class="language-switcher-locale-url">
+                <li class="sr first">
+                  <a
+                    href="/kamenje.html"
+                    class="language-link"
+                    xml:lang="sr"
+                    title="Kamenje"
+                    >Srpski</a
+                  >
+                </li>
+                <li class="hu">
+                  <a
+                    href="/hu/dragakovek.html"
+                    class="language-link"
+                    xml:lang="hu"
+                    title="Drágakövek"
+                    >Magyar</a
+                  >
+                </li>
+                <li class="en">
+                  <a
+                    href="/en/gemstones.html"
+                    class="language-link"
+                    xml:lang="en"
+                    title="Gemstones"
+                    >English</a
+                  >
+                </li>
+                <li class="de last active">
+                  <a
+                    href="/de/edelsteine.html"
+                    class="language-link active"
+                    xml:lang="de"
+                    title="Edelsteine"
+                    >Deutsch</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-
-
-      <div class="l-region l-region--navigation">
-    <div id="block-locale-language" role="complementary" class="block block--locale block--locale-language">
-        <div class="block__content">
-    <ul class="language-switcher-locale-url"><li class="sr first"><a href="/kamenje" class="language-link" xml:lang="sr" title="Kamenje">Srpski</a></li>
-<li class="hu"><a href="/hu/dragakovek" class="language-link" xml:lang="hu" title="Drágakövek">Magyar</a></li>
-<li class="en"><a href="/en/gemstones" class="language-link" xml:lang="en" title="Gemstones">English</a></li>
-<li class="de last active"><a href="/de/edelsteine" class="language-link active" xml:lang="de" title="Edelsteine">Deutsch</a></li>
-</ul>  </div>
-</div>
-<nav id="block-system-main-menu" role="navigation" class="block block--system block--menu block--system-main-menu">
-      
-  <ul class="menu"><li class="first leaf"><a href="/de/hause">Startseite</a></li>
-<li class="leaf"><a href="/de/philosophie">Philosophie</a></li>
-<li class="leaf"><a href="/de/der-unikat-schmuck">Der Unikat schmuck</a></li>
-<li class="leaf"><a href="/de/was-kostet-es">Preis</a></li>
-<li class="leaf"><a href="/de/blog">Blog</a></li>
-<li class="leaf"><a href="/de/kontakt">Kontakt</a></li>
-<li class="leaf show-mobile"><a href="http://www.unikat-gold.com/">Srpski</a></li>
-<li class="leaf show-mobile"><a href="http://www.unikat-gold.com/hu">Magyar</a></li>
-<li class="leaf show-mobile"><a href="http://www.unikat-gold.com/en">English</a></li>
-<li class="last leaf show-mobile"><a href="http://www.unikat-gold.com/de">Deutsch</a></li>
-</ul></nav>
-  </div>
-      <div class="mobile-menu">
-            <a class="js-menu-trigger sliding-panel-button" href="#menu">
-                <span></span>Menu            </a>
+          <nav
+            id="block-system-main-menu"
+            role="navigation"
+            class="block block--system block--menu block--system-main-menu"
+          >
+            <ul class="menu">
+              <li class="first leaf">
+                <a href="/de/hause.html">Startseite</a>
+              </li>
+              <li class="leaf">
+                <a href="/de/philosophie.html">Philosophie</a>
+              </li>
+              <li class="leaf">
+                <a href="/de/der-unikat-schmuck">Der Unikat schmuck</a>
+              </li>
+              <li class="leaf active-trail">
+                <a href="/de/edelsteine.html" class="active-trail active"
+                  >Edelsteine</a
+                >
+              </li>
+              <li class="leaf"><a href="/de/was-kostet-es.html">Preis</a></li>
+              <li class="leaf"><a href="/de/blog.html">Blog</a></li>
+              <li class="leaf"><a href="/de/kontakt.html">Kontakt</a></li>
+              <li class="leaf show-mobile">
+                <a href="/">Srpski</a>
+              </li>
+              <li class="leaf show-mobile">
+                <a href="/hu">Magyar</a>
+              </li>
+              <li class="leaf show-mobile">
+                <a href="/en">English</a>
+              </li>
+              <li class="last leaf show-mobile">
+                <a href="/de">Deutsch</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mobile-menu">
+          <a class="js-menu-trigger sliding-panel-button" href="#menu">
+            <span></span>Menu
+          </a>
         </div>
         <div class="l-region l-region--header">
-    <div id="block-views-slideshow-block" class="block block--views block--views-slideshow-block">
-        <div class="block__content">
-    <div class="view view-slideshow view-id-slideshow view-display-id-block view-dom-id-216aaf9e019ed02c396c42defe32f789">
-        
-  
-  
-      <div class="view-content">
-      
-  <div class="skin-default">
-    
-    <div id="bxslider_views_slideshow_main_slideshow-block_1" class="bxslider_views_slideshow_main views_slideshow_main"><div id="views-slideshow-bxslider-1" class="views-slideshow-bxslider">
-    <ul id="views-slideshow-bxslider-images-1" class="bxslider-views-slideshow-main-frame bxslider">
-          <li id="views_slideshow_cycle_div_1_0" class="bxslider-views-slideshow-main-frame-row">
-    
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="http://www.unikat-gold.com/de/der-unikat-schmuck"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/images/banner/6-v2.jpg" width="1112" height="550" alt="Más, mint a többi" /></a></div>  </div></li>
+          <div
+            id="block-views-slideshow-block"
+            class="block block--views block--views-slideshow-block"
+          >
+            <div class="block__content">
+              <div
+                class="view view-slideshow view-id-slideshow view-display-id-block view-dom-id-216aaf9e019ed02c396c42defe32f789"
+              >
+                <div class="view-content">
+                  <div class="skin-default">
+                    <div
+                      id="bxslider_views_slideshow_main_slideshow-block_1"
+                      class="bxslider_views_slideshow_main views_slideshow_main"
+                    >
+                      <div
+                        id="views-slideshow-bxslider-1"
+                        class="views-slideshow-bxslider"
+                      >
+                        <ul
+                          id="views-slideshow-bxslider-images-1"
+                          class="bxslider-views-slideshow-main-frame bxslider"
+                        >
+                          <li
+                            id="views_slideshow_cycle_div_1_0"
+                            class="bxslider-views-slideshow-main-frame-row"
+                          >
+                            <div class="views-field views-field-field-image">
+                              <div class="field-content">
+                                <a href="/de/der-unikat-schmuck"
+                                  ><img
+                                    typeof="foaf:Image"
+                                    src="/sites/default/files/images/banner/6-v2.jpg"
+                                    width="1112"
+                                    height="550"
+                                    alt="Más, mint a többi"
+                                /></a>
+                              </div>
+                            </div>
+                          </li>
 
-          <li id="views_slideshow_cycle_div_1_1" class="bxslider-views-slideshow-main-frame-row">
-    
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="http://www.unikat-gold.com/de/der-unikat-schmuck"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/images/banner/1.jpg" width="1112" height="550" alt="Ötlet" /></a></div>  </div></li>
+                          <li
+                            id="views_slideshow_cycle_div_1_1"
+                            class="bxslider-views-slideshow-main-frame-row"
+                          >
+                            <div class="views-field views-field-field-image">
+                              <div class="field-content">
+                                <a href="/de/der-unikat-schmuck"
+                                  ><img
+                                    typeof="foaf:Image"
+                                    src="/sites/default/files/images/banner/1.jpg"
+                                    width="1112"
+                                    height="550"
+                                    alt="Ötlet"
+                                /></a>
+                              </div>
+                            </div>
+                          </li>
 
-          <li id="views_slideshow_cycle_div_1_2" class="bxslider-views-slideshow-main-frame-row">
-    
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="http://www.unikat-gold.com/de/der-unikat-schmuck"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/images/banner/3.jpg" width="1112" height="550" alt="Egyedi" /></a></div>  </div></li>
+                          <li
+                            id="views_slideshow_cycle_div_1_2"
+                            class="bxslider-views-slideshow-main-frame-row"
+                          >
+                            <div class="views-field views-field-field-image">
+                              <div class="field-content">
+                                <a href="/de/der-unikat-schmuck"
+                                  ><img
+                                    typeof="foaf:Image"
+                                    src="/sites/default/files/images/banner/3.jpg"
+                                    width="1112"
+                                    height="550"
+                                    alt="Egyedi"
+                                /></a>
+                              </div>
+                            </div>
+                          </li>
 
-          <li id="views_slideshow_cycle_div_1_3" class="bxslider-views-slideshow-main-frame-row">
-    
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="http://www.unikat-gold.com/de/der-unikat-schmuck"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/images/banner/2.jpg" width="1112" height="550" alt="Kézi kidolgozás" /></a></div>  </div></li>
+                          <li
+                            id="views_slideshow_cycle_div_1_3"
+                            class="bxslider-views-slideshow-main-frame-row"
+                          >
+                            <div class="views-field views-field-field-image">
+                              <div class="field-content">
+                                <a href="/de/der-unikat-schmuck"
+                                  ><img
+                                    typeof="foaf:Image"
+                                    src="/sites/default/files/images/banner/2.jpg"
+                                    width="1112"
+                                    height="550"
+                                    alt="Kézi kidolgozás"
+                                /></a>
+                              </div>
+                            </div>
+                          </li>
 
-          <li id="views_slideshow_cycle_div_1_4" class="bxslider-views-slideshow-main-frame-row">
-    
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="http://www.unikat-gold.com/de/der-unikat-schmuck"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/images/banner/5.jpg" width="1112" height="550" alt="Professzionalizmus" /></a></div>  </div></li>
+                          <li
+                            id="views_slideshow_cycle_div_1_4"
+                            class="bxslider-views-slideshow-main-frame-row"
+                          >
+                            <div class="views-field views-field-field-image">
+                              <div class="field-content">
+                                <a href="/de/der-unikat-schmuck"
+                                  ><img
+                                    typeof="foaf:Image"
+                                    src="/sites/default/files/images/banner/5.jpg"
+                                    width="1112"
+                                    height="550"
+                                    alt="Professzionalizmus"
+                                /></a>
+                              </div>
+                            </div>
+                          </li>
 
-          <li id="views_slideshow_cycle_div_1_5" class="bxslider-views-slideshow-main-frame-row">
-    
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="http://www.unikat-gold.com/de/der-unikat-schmuck"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/images/banner/4.jpg" width="1112" height="550" alt="Legjobbat adni" /></a></div>  </div></li>
+                          <li
+                            id="views_slideshow_cycle_div_1_5"
+                            class="bxslider-views-slideshow-main-frame-row"
+                          >
+                            <div class="views-field views-field-field-image">
+                              <div class="field-content">
+                                <a href="/de/der-unikat-schmuck"
+                                  ><img
+                                    typeof="foaf:Image"
+                                    src="/sites/default/files/images/banner/4.jpg"
+                                    width="1112"
+                                    height="550"
+                                    alt="Legjobbat adni"
+                                /></a>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
 
-      </ul>
-</div>
-</div>
-      </div>
-    </div>
-  
-  
-  
-  
-  
-  
-</div>  </div>
-</div>
-  </div>
-  </header>
-
-  <div class="l-main">
-    <div class="l-content" role="main">
-                  <a id="main-content"></a>
-                    <h1 class="page-title">Edelsteine</h1>
-                                          <div class="view view-kamenje view-id-kamenje view-display-id-page view-dom-id-915d1a6f3c6db3a0f8ccbbb4969e0b3c">
+      <div class="l-main">
+        <div class="l-content" role="main">
+          <a id="main-content"></a>
+          <h1 class="page-title">Edelsteine</h1>
+          <div
+            class="view view-kamenje view-id-kamenje view-display-id-page view-dom-id-915d1a6f3c6db3a0f8ccbbb4969e0b3c"
+          >
             <div class="view-header">
-      <p>Welche Vorstellung Sie auch von Ihrem Schmuckstück haben, wir wandeln es für Sie in die Realität um!<br />
-Wählen Sie aus einer Auswahl von Edel- und Halbedelsteinen, die ich in Ihre einzigartigen, handgefertigten Schmuckstücke einarbeite.</p>
-    </div>
-  
-  
-  
-      <div class="view-content">
-        <div class="views-row views-row-1 views-row-odd views-row-first clearfix">
-    <article about="/de/node/145" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/145" rel="bookmark">MALACHITE</a></h2>
-            <span property="dc:title" content="MALACHITE" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/malachite.jpg" title="MALACHITE" class="colorbox" data-colorbox-gallery="gallery-node-145-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/malachite.jpg?itok=DIllukxk" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>16,2 x 12,2 mm</p>
-<p>13,09 ct</p>
-</div></div></div><!--
+              <p>
+                Welche Vorstellung Sie auch von Ihrem Schmuckstück haben, wir
+                wandeln es für Sie in die Realität um!<br />
+                Wählen Sie aus einer Auswahl von Edel- und Halbedelsteinen, die
+                ich in Ihre einzigartigen, handgefertigten Schmuckstücke
+                einarbeite.
+              </p>
+            </div>
+
+            <div class="view-content">
+              <div
+                class="views-row views-row-1 views-row-odd views-row-first clearfix"
+              >
+                <article
+                  about="/de/node/145"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/145" rel="bookmark">MALACHITE</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="MALACHITE"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
+
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/malachite.jpg"
+                            title="MALACHITE"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-145-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/malachite.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>16,2 x 12,2 mm</p>
+                          <p>13,09 ct</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">20 euro</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">20 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-2 views-row-even clearfix">
+                <article
+                  about="/de/node/144"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/144" rel="bookmark">TURQUOISES</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="TURQUOISES"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-2 views-row-even clearfix">
-    <article about="/de/node/144" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/144" rel="bookmark">TURQUOISES</a></h2>
-            <span property="dc:title" content="TURQUOISES" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/turquoises.jpg" title="TURQUOISES" class="colorbox" data-colorbox-gallery="gallery-node-144-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/turquoises.jpg?itok=dI8IbYJL" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>oval, cabochon</p>
-<p>different sizes</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/turquoises.jpg"
+                            title="TURQUOISES"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-144-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/turquoises.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>oval, cabochon</p>
+                          <p>different sizes</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">16 euro/g</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">16 euro/g</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-3 views-row-odd clearfix">
+                <article
+                  about="/de/node/143"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/143" rel="bookmark">BLUE TOPAZ</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="BLUE TOPAZ"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-3 views-row-odd clearfix">
-    <article about="/de/node/143" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/143" rel="bookmark">BLUE TOPAZ</a></h2>
-            <span property="dc:title" content="BLUE TOPAZ" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/blue_topaz.jpg" title="BLUE TOPAZ" class="colorbox" data-colorbox-gallery="gallery-node-143-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/blue_topaz.jpg?itok=EXqJTwgr" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>oval, pavilion cut</p>
-<p>14,2 x 10,2 mm</p>
-<p>7,62 ct</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/blue_topaz.jpg"
+                            title="BLUE TOPAZ"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-143-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/blue_topaz.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>oval, pavilion cut</p>
+                          <p>14,2 x 10,2 mm</p>
+                          <p>7,62 ct</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">105 euro</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">105 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-4 views-row-even clearfix">
+                <article
+                  about="/de/node/142"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/142" rel="bookmark">EMERALD</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="EMERALD"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-4 views-row-even clearfix">
-    <article about="/de/node/142" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/142" rel="bookmark">EMERALD</a></h2>
-            <span property="dc:title" content="EMERALD" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/emerald.jpg" title="EMERALD" class="colorbox" data-colorbox-gallery="gallery-node-142-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/emerald.jpg?itok=53TnoLIg" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>pear</p>
-<p>10 x 7 mm</p>
-<p>1,36 ct</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/emerald.jpg"
+                            title="EMERALD"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-142-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/emerald.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>pear</p>
+                          <p>10 x 7 mm</p>
+                          <p>1,36 ct</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">305 euro</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">305 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-5 views-row-odd clearfix">
+                <article
+                  about="/de/node/141"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/141" rel="bookmark">MATRIX OPAL</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="MATRIX OPAL"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-5 views-row-odd clearfix">
-    <article about="/de/node/141" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/141" rel="bookmark">MATRIX OPAL</a></h2>
-            <span property="dc:title" content="MATRIX OPAL" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/matrix_opal.jpg" title="MATRIX OPAL" class="colorbox" data-colorbox-gallery="gallery-node-141-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/matrix_opal.jpg?itok=utZdfxrG" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>oval, cabochon</p>
-<p>24,5 x 17,5 mm</p>
-<p>3,85 g</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/matrix_opal.jpg"
+                            title="MATRIX OPAL"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-141-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/matrix_opal.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>oval, cabochon</p>
+                          <p>24,5 x 17,5 mm</p>
+                          <p>3,85 g</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">38 euro</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">38 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-6 views-row-even clearfix">
+                <article
+                  about="/de/node/140"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/140" rel="bookmark">LABRADORITE</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="LABRADORITE"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-6 views-row-even clearfix">
-    <article about="/de/node/140" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/140" rel="bookmark">LABRADORITE</a></h2>
-            <span property="dc:title" content="LABRADORITE" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/labradorite.jpg" title="LABRADORITE" class="colorbox" data-colorbox-gallery="gallery-node-140-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/labradorite.jpg?itok=rAVYzz4Z" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>oval, cabochon</p>
-<p>17,8 x 13 mm</p>
-<p>1,8 g</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/labradorite.jpg"
+                            title="LABRADORITE"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-140-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/labradorite.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>oval, cabochon</p>
+                          <p>17,8 x 13 mm</p>
+                          <p>1,8 g</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">12 euro</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">12 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-7 views-row-odd clearfix">
+                <article
+                  about="/de/node/139"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/139" rel="bookmark"
+                        >CHALCEDON „SEA-BLUE”</a
+                      >
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="CHALCEDON „SEA-BLUE”"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-7 views-row-odd clearfix">
-    <article about="/de/node/139" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/139" rel="bookmark">CHALCEDON „SEA-BLUE”</a></h2>
-            <span property="dc:title" content="CHALCEDON „SEA-BLUE”" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/chalcedon_-_sea_blue_-_round.jpg" title="CHALCEDON „SEA-BLUE”" class="colorbox" data-colorbox-gallery="gallery-node-139-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/chalcedon_-_sea_blue_-_round.jpg?itok=vLbdPWAd" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>round, cabochon</p>
-<p>12 mm</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/chalcedon_-_sea_blue_-_round.jpg"
+                            title="CHALCEDON „SEA-BLUE”"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-139-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/chalcedon_-_sea_blue_-_round.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>round, cabochon</p>
+                          <p>12 mm</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">32 euro/pc.</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">32 euro/pc.</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-8 views-row-even clearfix">
+                <article
+                  about="/de/node/138"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/138" rel="bookmark"
+                        >CHALCEDON „SEA-BLUE”</a
+                      >
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="CHALCEDON „SEA-BLUE”"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-8 views-row-even clearfix">
-    <article about="/de/node/138" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/138" rel="bookmark">CHALCEDON „SEA-BLUE”</a></h2>
-            <span property="dc:title" content="CHALCEDON „SEA-BLUE”" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/chalcedon_-_sea_blue_-_bead.jpg" title="CHALCEDON „SEA-BLUE”" class="colorbox" data-colorbox-gallery="gallery-node-138-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/chalcedon_-_sea_blue_-_bead.jpg?itok=wLBLY_Cf" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>bead, half-drilled</p>
-<p>12 mm</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/chalcedon_-_sea_blue_-_bead.jpg"
+                            title="CHALCEDON „SEA-BLUE”"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-138-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/chalcedon_-_sea_blue_-_bead.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>bead, half-drilled</p>
+                          <p>12 mm</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">18 euro/pc.</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">18 euro/pc.</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-9 views-row-odd clearfix">
+                <article
+                  about="/de/node/137"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/137" rel="bookmark">CHRYSOKOLL</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="CHRYSOKOLL"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-9 views-row-odd clearfix">
-    <article about="/de/node/137" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/137" rel="bookmark">CHRYSOKOLL</a></h2>
-            <span property="dc:title" content="CHRYSOKOLL" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/chrysokoll.jpg" title="CHRYSOKOLL" class="colorbox" data-colorbox-gallery="gallery-node-137-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/chrysokoll.jpg?itok=JluNPmmU" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>pear</p>
-<p>5,18 g</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/chrysokoll.jpg"
+                            title="CHRYSOKOLL"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-137-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/chrysokoll.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>pear</p>
+                          <p>5,18 g</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">20 euro</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">20 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-10 views-row-even clearfix">
+                <article
+                  about="/de/node/136"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/136" rel="bookmark">CORALS</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="CORALS"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-10 views-row-even clearfix">
-    <article about="/de/node/136" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/136" rel="bookmark">CORALS</a></h2>
-            <span property="dc:title" content="CORALS" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/corals.jpg" title="CORALS" class="colorbox" data-colorbox-gallery="gallery-node-136-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/corals.jpg?itok=PWxgE6-G" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>oval, cabochon</p>
-<p>different sizes</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/corals.jpg"
+                            title="CORALS"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-136-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/corals.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>oval, cabochon</p>
+                          <p>different sizes</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">75 euro/g</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">75 euro/g</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-11 views-row-odd clearfix">
+                <article
+                  about="/de/node/135"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/135" rel="bookmark">CORAL</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="CORAL"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-11 views-row-odd clearfix">
-    <article about="/de/node/135" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/135" rel="bookmark">CORAL</a></h2>
-            <span property="dc:title" content="CORAL" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/coral_-_oval.jpg" title="CORAL" class="colorbox" data-colorbox-gallery="gallery-node-135-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/coral_-_oval.jpg?itok=4Bgal9ze" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>oval, cabochon</p>
-<p>18,2 x 13 mm</p>
-<p>1,75 g</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/coral_-_oval.jpg"
+                            title="CORAL"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-135-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/coral_-_oval.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>oval, cabochon</p>
+                          <p>18,2 x 13 mm</p>
+                          <p>1,75 g</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">65 euro</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">65 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-12 views-row-even clearfix">
+                <article
+                  about="/de/node/134"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/134" rel="bookmark">FLUORITE</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="FLUORITE"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-12 views-row-even clearfix">
-    <article about="/de/node/134" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/134" rel="bookmark">FLUORITE</a></h2>
-            <span property="dc:title" content="FLUORITE" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/fluorite.jpg" title="FLUORITE" class="colorbox" data-colorbox-gallery="gallery-node-134-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/fluorite.jpg?itok=AtoLJa5w" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>round, cabochon</p>
-<p>17 mm</p>
-<p>12,47 ct</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/fluorite.jpg"
+                            title="FLUORITE"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-134-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/fluorite.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>round, cabochon</p>
+                          <p>17 mm</p>
+                          <p>12,47 ct</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">22 euro</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">22 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-13 views-row-odd clearfix">
+                <article
+                  about="/de/node/133"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/133" rel="bookmark">CITRINE</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="CITRINE"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-13 views-row-odd clearfix">
-    <article about="/de/node/133" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/133" rel="bookmark">CITRINE</a></h2>
-            <span property="dc:title" content="CITRINE" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/citrine_-_round.jpg" title="CITRINE" class="colorbox" data-colorbox-gallery="gallery-node-133-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/citrine_-_round.jpg?itok=SCMwuc_7" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>round, laser cut</p>
-<p>10,2 mm</p>
-<p>3,41 ct</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/citrine_-_round.jpg"
+                            title="CITRINE"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-133-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/citrine_-_round.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>round, laser cut</p>
+                          <p>10,2 mm</p>
+                          <p>3,41 ct</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">28 euro</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">28 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-14 views-row-even clearfix">
+                <article
+                  about="/de/node/132"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/132" rel="bookmark">CITRINE</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="CITRINE"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-14 views-row-even clearfix">
-    <article about="/de/node/132" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/132" rel="bookmark">CITRINE</a></h2>
-            <span property="dc:title" content="CITRINE" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/citrine_-_oval.jpg" title="CITRINE" class="colorbox" data-colorbox-gallery="gallery-node-132-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/citrine_-_oval.jpg?itok=CIZeXAGo" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>oval, laser cut</p>
-<p>13,3 x 10,6 mm</p>
-<p>5,93 ct</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/citrine_-_oval.jpg"
+                            title="CITRINE"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-132-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/citrine_-_oval.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>oval, laser cut</p>
+                          <p>13,3 x 10,6 mm</p>
+                          <p>5,93 ct</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">38 euro</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">38 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="views-row views-row-15 views-row-odd clearfix">
+                <article
+                  about="/de/node/131"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/131" rel="bookmark">AMAZONITE</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="AMAZONITE"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-15 views-row-odd clearfix">
-    <article about="/de/node/131" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/131" rel="bookmark">AMAZONITE</a></h2>
-            <span property="dc:title" content="AMAZONITE" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/amazonite.jpg" title="AMAZONITE" class="colorbox" data-colorbox-gallery="gallery-node-131-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/amazonite.jpg?itok=Q7oaoTE4" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>oval, cabochon</p>
-<p>18 x 13 mm</p>
-<p> </p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/amazonite.jpg"
+                            title="AMAZONITE"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-131-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/amazonite.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>oval, cabochon</p>
+                          <p>18 x 13 mm</p>
+                          <p> </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">15 euro</div>
-            </div>
-</div>  </div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">15 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div
+                class="views-row views-row-16 views-row-even views-row-last clearfix"
+              >
+                <article
+                  about="/de/node/130"
+                  typeof="sioc:Item foaf:Document"
+                  role="article"
+                  class="node node--kamenje node--promoted node--full node--kamenje--full"
+                >
+                  <header>
+                    <h2 class="node__title">
+                      <a href="/de/node/130" rel="bookmark">AMETHYST</a>
+                    </h2>
+                    <span
+                      property="dc:title"
+                      content="AMETHYST"
+                      class="rdf-meta element-hidden"
+                    ></span>
+                  </header>
 
-    </article>
-  </div>
-  <div class="views-row views-row-16 views-row-even views-row-last clearfix">
-    <article about="/de/node/130" typeof="sioc:Item foaf:Document" role="article" class="node node--kamenje node--promoted node--full node--kamenje--full">
-      <header>
-                    <h2 class="node__title"><a href="/de/node/130" rel="bookmark">AMETHYST</a></h2>
-            <span property="dc:title" content="AMETHYST" class="rdf-meta element-hidden"></span>    </header>
-  
-  
-  <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><a href="http://www.unikat-gold.com/sites/default/files/images/kamenje/amethyst.jpg" title="AMETHYST" class="colorbox" data-colorbox-gallery="gallery-node-130-n6elB1AorUQ" data-cbox-img-attrs="{&quot;title&quot;: &quot;&quot;, &quot;alt&quot;: &quot;&quot;}"><img typeof="foaf:Image" src="http://www.unikat-gold.com/sites/default/files/styles/product__223x223_/public/images/kamenje/amethyst.jpg?itok=IeK4okBY" width="300" height="300" alt="" title="" /></a></div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>antique</p>
-<p>10 x 10 mm</p>
-<p>3,33 ct</p>
-</div></div></div><!--
+                  <div class="node__content">
+                    <div
+                      class="field field--name-field-image field--type-image field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div class="field__item even">
+                          <a
+                            href="/sites/default/files/images/kamenje/amethyst.jpg"
+                            title="AMETHYST"
+                            class="colorbox"
+                            data-colorbox-gallery="gallery-node-130-n6elB1AorUQ"
+                            data-cbox-img-attrs='{"title": "", "alt": ""}'
+                            ><img
+                              typeof="foaf:Image"
+                              src="/sites/default/files/images/kamenje/amethyst.jpg"
+                              width="300"
+                              height="300"
+                              alt=""
+                              title=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="field field--name-body field--type-text-with-summary field--label-hidden"
+                    >
+                      <div class="field__items">
+                        <div
+                          class="field__item even"
+                          property="content:encoded"
+                        >
+                          <p>antique</p>
+                          <p>10 x 10 mm</p>
+                          <p>3,33 ct</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--
 This file is not used by Drupal core, which uses theme functions instead.
 See http://api.drupal.org/api/function/theme_field/7 for details.
 After copying this file to your theme's folder and customizing it, remove this
 HTML comment.
 -->
-<div class="field field--name-field-price field--type-text field--label-hidden">
-        <div class="field-items">
-                    <div class="field-click">Klicken Sie für Preis</div>
-            <div class="field-item even">24 euro</div>
+                    <div
+                      class="field field--name-field-price field--type-text field--label-hidden"
+                    >
+                      <div class="field-items">
+                        <div class="field-click">Klicken Sie für Preis</div>
+                        <div class="field-item even">24 euro</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
             </div>
-</div>  </div>
-
-    </article>
-  </div>
-    </div>
-  
-  
-  
-  
-  
-  
-</div>          </div>
-
           </div>
+        </div>
+      </div>
+      <footer class="l-footer" role="contentinfo">
+        <div class="l-region l-region--footer-first">
+          <nav
+            id="block-menu-block-1"
+            role="navigation"
+            class="block block--menu-block block--menu-block-1"
+          >
+            <h2 class="block__title">Menu</h2>
 
-  <footer class="l-footer" role="contentinfo">
-   	  <div class="l-region l-region--footer-first">
-    <nav id="block-menu-block-1" role="navigation" class="block block--menu-block block--menu-block-1">
-        <h2 class="block__title">Menu</h2>
-    
-  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
-  <ul class="menu"><li class="first leaf menu-mlid-558"><a href="/de/hause">Startseite</a></li>
-<li class="leaf menu-mlid-591"><a href="/de/philosophie">Philosophie</a></li>
-<li class="leaf menu-mlid-593"><a href="/de/der-unikat-schmuck">Der Unikat schmuck</a></li>
-<li class="leaf menu-mlid-588"><a href="/de/was-kostet-es">Preis</a></li>
-<li class="leaf menu-mlid-564"><a href="/de/blog">Blog</a></li>
-<li class="leaf menu-mlid-585"><a href="/de/kontakt">Kontakt</a></li>
-<li class="leaf menu-mlid-597 show-mobile"><a href="http://www.unikat-gold.com/">Srpski</a></li>
-<li class="leaf menu-mlid-598 show-mobile"><a href="http://www.unikat-gold.com/hu">Magyar</a></li>
-<li class="leaf menu-mlid-599 show-mobile"><a href="http://www.unikat-gold.com/en">English</a></li>
-<li class="last leaf menu-mlid-600 show-mobile"><a href="http://www.unikat-gold.com/de">Deutsch</a></li>
-</ul></div>
-</nav>
-  </div>
-   	  <div class="l-region l-region--footer-second">
-    <div id="block-views-nakit-footer-block" class="block block--views block--views-nakit-footer-block">
-        <h2 class="block__title">Der Unikat schmuck</h2>
-      <div class="block__content">
-    <div class="view view-nakit-footer view-id-nakit_footer view-display-id-block view-dom-id-7de78bdcc8b5bf167a0adbaf49dff6fa">
-        
-  
-  
-      <div class="view-content">
-      <div class="item-list"><ul>  <li>  
-          <a href="/de/der-unikat-schmuck/ringe">Ringe</a>  </li>
-  <li>  
-          <a href="/de/der-unikat-schmuck/eheringe">Eheringe</a>  </li>
-  <li>  
-          <a href="/de/der-unikat-schmuck/halsketten-ketten-und-anhaengsel">Halsketten, Ketten und Anhängsel</a>  </li>
-  <li>  
-          <a href="/de/der-unikat-schmuck/armbaender">Armbänder</a>  </li>
-  <li>  
-          <a href="/de/der-unikat-schmuck/ohrringe">Ohrringe</a>  </li>
-  <li>  
-          <a href="/de/der-unikat-schmuck/herrenschmuck">Herrenschmuck</a>  </li>
-  <li>  
-          <a href="/de/der-unikat-schmuck/weitere-spezialitaeten">Weitere Spezialitäten</a>  </li>
-</ul></div>    </div>
-  
-  
-  
-  
-  
-  
-</div>  </div>
-</div>
-  </div>
-   	  <div class="l-region l-region--footer-third">
-    <div id="block-block-7" class="block block--block block--block-7">
-        <h2 class="block__title">Kontakt</h2>
-      <div class="block__content">
-    <ul>
-<li>Trg Sinagoge 1/a 24000 Subotica, Serbia</li>
-<li>Phone (+381) 24 553 706</li>
-<li>Mobile (+381) 64 20 547 69</li>
-<li>E-mail <a href="mailto:zlataraunikat@gmail.com">zlataraunikat@gmail.com</a></li>
-</ul>
-<h3>Arbeitszeit</h3>
-<ul>
-<li>Montag – Freitag: 8.30 – 17.00 Uhr</li>
-<li>Samstags: arbeiten wir nicht</li>
-</ul>
-<p><a href="https://www.google.com/maps?q=unikat+zlatara&amp;rlz=1C5CHFA_enRS942RS942&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwiRjNqu3JL_AhWCTOUKHVhlCVUQ_AUoAnoECAEQBA" target="_blank"><img alt="" src="/sites/default/files/g-map-icon.png" style="height:21px; width:23px" /></a>  <a href="https://www.facebook.com/Unikat.Zlatara/" target="_blank"><img alt="" src="/sites/default/files/fb-icon.png" style="height:20px; width:10px" /></a> <a href="https://www.instagram.com/unikatjewellersubotica/?hl=hu" target="_blank"><img alt="" src="/sites/default/files/images/blog-images/instagram.png" style="height:24px; margin-bottom:-2px; width:24px" /></a></p>
-<p> </p>
-<p><iframe height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2766.445284401596!2d19.658845415578938!3d46.10203347911379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474366c675953ddb%3A0xf05ef8f2cc905436!2sUnikat%20Jeweller%20Subotica!5e0!3m2!1sen!2srs!4v1685096062690!5m2!1sen!2srs" style="border:0;" width="284px"></iframe></p>
-  </div>
-</div>
-  </div>
-   	      <div class="footer-bottom">
+            <div
+              class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1"
+            >
+              <ul class="menu">
+                <li class="first leaf active-trail active menu-mlid-558">
+                  <a href="/de/" class="active-trail active-trail active"
+                    >Startseite</a
+                  >
+                </li>
+                <li class="leaf menu-mlid-591">
+                  <a href="/de/philosophie.html">Philosophie</a>
+                </li>
+                <li class="leaf menu-mlid-593">
+                  <a href="/de/der-unikat-schmuck">Der Unikat schmuck</a>
+                </li>
+                <li class="leaf menu-mlid-588">
+                  <a href="/de/was-kostet-es.html">Preis</a>
+                </li>
+                <li class="leaf menu-mlid-564">
+                  <a href="/de/blog.html">Blog</a>
+                </li>
+                <li class="leaf menu-mlid-585">
+                  <a href="/de/kontakt.html">Kontakt</a>
+                </li>
+                <li class="leaf menu-mlid-597 show-mobile">
+                  <a href="/">Srpski</a>
+                </li>
+                <li class="leaf menu-mlid-598 show-mobile">
+                  <a href="/hu">Magyar</a>
+                </li>
+                <li class="leaf menu-mlid-599 show-mobile">
+                  <a href="/en">English</a>
+                </li>
+                <li class="last leaf menu-mlid-600 show-mobile">
+                  <a href="/de">Deutsch</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="l-region l-region--footer-second">
+          <div
+            id="block-views-nakit-footer-block"
+            class="block block--views block--views-nakit-footer-block"
+          >
+            <h2 class="block__title">Der Unikat schmuck</h2>
+            <div class="block__content">
+              <div
+                class="view view-nakit-footer view-id-nakit_footer view-display-id-block view-dom-id-557365f410fbbbdfc31c2d11d13957d5"
+              >
+                <div class="view-content">
+                  <div class="item-list">
+                    <ul>
+                      <li>
+                        <a href="/de/der-unikat-schmuck/ringe.html">Ringe</a>
+                      </li>
+                      <li>
+                        <a href="/de/der-unikat-schmuck/eheringe.html"
+                          >Eheringe</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="/de/der-unikat-schmuck/halsketten-ketten-und-anhaengsel.html"
+                          >Halsketten, Ketten und Anhängsel</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/de/der-unikat-schmuck/armbaender.html"
+                          >Armbänder</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/de/der-unikat-schmuck/ohrringe.html"
+                          >Ohrringe</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/de/der-unikat-schmuck/herrenschmuck.html"
+                          >Herrenschmuck</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="/de/der-unikat-schmuck/weitere-spezialitaeten.html"
+                          >Weitere Spezialitäten</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="l-region l-region--footer-third">
+          <div id="block-block-7" class="block block--block block--block-7">
+            <h2 class="block__title">Kontakt</h2>
+            <div class="block__content">
+              <ul>
+                <li>Trg Sinagoge 1/a 24000 Subotica, Serbia</li>
+                <li>Phone <a href="tel:+38124553706">(+381) 24 553 706</a></li>
+                <li>
+                  Mobile
+                  <a href="tel:+381642054769">(+381) 64 20 547 69</a>
+                </li>
+                <li>
+                  E-mail
+                  <a href="mailto:zlataraunikat@gmail.com"
+                    >zlataraunikat@gmail.com</a
+                  >
+                </li>
+              </ul>
+              <h3>Arbeitszeit</h3>
+              <ul>
+                <li>Montag – Freitag: 8.30 – 17.00 Uhr</li>
+                <li>Samstags: arbeiten wir nicht</li>
+              </ul>
+              <p>
+                <a
+                  href="https://www.google.com/maps?unikat+zlatara&amp;rlz=1C5CHFA_enRS942RS942&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwiRjNqu3JL_AhWCTOUKHVhlCVUQ_AUoAnoECAEQBA"
+                  target="_blank"
+                  ><img
+                    alt=""
+                    src="/sites/default/files/g-map-icon.png"
+                    style="height: 21px; width: 23px" /></a
+                > 
+                <a
+                  href="https://www.facebook.com/Unikat.Zlatara/"
+                  target="_blank"
+                  ><img
+                    alt=""
+                    src="/sites/default/files/fb-icon.png"
+                    style="height: 20px; width: 10px" /></a
+                > <a
+                  href="https://www.instagram.com/unikatjewellersubotica/?hu"
+                  target="_blank"
+                  ><img
+                    alt=""
+                    src="/sites/default/files/images/blog-images/instagram.png"
+                    style="height: 24px; margin-bottom: -2px; width: 24px" /></a
+                ><a
+                  href="https://www.pinterest-icon.com/unikatjewellersubotica/"
+                  target="_blank"
+                  ><img
+                    alt=""
+                    src="/sites/default/files/images/blog-images/pinterest-icon.png"
+                    style="height: 20px; margin-left: 2px; width: 14px"
+                /></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
           <div class="l-region l-region--footer-bottom">
-    <div id="block-block-3" class="block block--block block--block-3">
-        <div class="block__content">
-    <p>DESIGN AND CODE: <a href="http://www.studiopresent.com" target="_blank">STUDIO PRESENT</a></p>
-  </div>
-</div>
-  </div>
+            <div id="block-block-3" class="block block--block block--block-3">
+              <div class="block__content">
+                <p>
+                  DESIGN AND CODE:
+                  <a href="http://www.studiopresent.com" target="_blank"
+                    >STUDIO PRESENT</a
+                  >
+                </p>
+              </div>
+            </div>
           </div>
-  </footer>
-</div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
