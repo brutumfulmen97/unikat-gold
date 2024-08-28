@@ -1600,6 +1600,13 @@ border: 1px solid $text-gold;*/
     border-top: 5px solid #333 !important;
   }
 
+  #block-block-4 h2,
+  #block-block-5 h2,
+  #block-block-6 h2,
+  #block-block-7 h2 {
+    margin-bottom: 0;
+  }
+
   #block-block-4 h3,
   #block-block-5 h3,
   #block-block-6 h3,
