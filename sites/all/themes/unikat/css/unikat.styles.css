@@ -1600,7 +1600,10 @@ border: 1px solid $text-gold;*/
     border-top: 5px solid #333 !important;
   }
 
-  #block-block-4 h3 {
+  #block-block-4 h3,
+  #block-block-5 h3,
+  #block-block-6 h3,
+  #block-block-7 h3 {
     text-align: center !important;
   }
 }
