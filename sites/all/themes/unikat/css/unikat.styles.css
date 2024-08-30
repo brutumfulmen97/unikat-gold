@@ -750,6 +750,16 @@ ul.tabs li {
   width: 48%;
 }
 
+@media (max-width: 48em) {
+  .l-region--footer-third h3 {
+    text-align: center !important;
+  }
+
+  #block-block-4 h3 {
+    text-align: center !important;
+  }
+}
+
 @media (min-width: 48em) {
   /* line 3, ../sass/components/_navigation.scss */
   .l-region--navigation .menu {
@@ -1595,6 +1605,7 @@ border: 1px solid $text-gold;*/
   margin-left: 10px;
   margin-top: 4px;
 }
+
 @media (max-width: 48em) {
   .leaf:not(.show-mobile) + .show-mobile {
     border-top: 5px solid #333 !important;
@@ -1657,6 +1668,12 @@ border: 1px solid $text-gold;*/
   /* line 494, ../sass/unikat.styles.scss */
   .l-region--footer-fourth {
     margin-top: 0;
+  }
+}
+
+.rtejustify {
+  & a {
+    word-wrap: break-word;
   }
 }
 
