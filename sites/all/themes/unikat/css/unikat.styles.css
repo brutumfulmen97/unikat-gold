@@ -1671,7 +1671,9 @@ border: 1px solid $text-gold;*/
   }
 }
 
-.rtejustify {
+.rtejustify,
+.field__item,
+.field-content {
   & a {
     word-wrap: break-word;
   }
